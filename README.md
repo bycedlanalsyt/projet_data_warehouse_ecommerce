@@ -86,7 +86,7 @@ Projet_data_warehouse_ecommerce/
 - **Base de données** : Microsoft SQL Server
 - **ETL** : Power Query (dans Power BI)
 - **Visualisation** : Power BI Desktop
-- **Langages** : SQL (T-SQL), Python (FPDF pour documentation)
+- **Langages** : SQL (SSMS), Python (FPDF pour documentation)
 - **Modélisation** : Schéma en étoile (Star Schema)
 
 ## 🚀 Installation et utilisation
