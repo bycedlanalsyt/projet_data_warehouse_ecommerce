@@ -1,6 +1,6 @@
 # 🏢 Data Warehouse E-commerce - Projet Portfolio
 
-> **Projet réalisé dans le cadre du MBA Big Data & IA à MBA ESG Paris**
+> **Projet personnel**
 
 Ce projet illustre la construction complète d'un Data Warehouse à partir de données fictives d'e-commerce, avec modélisation sous SQL Server et création d'un dashboard Power BI pour l'analyse des ventes, paiements et produits.
 
