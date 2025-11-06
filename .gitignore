@@ -1,0 +1,183 @@
+# ============================================
+# SQL Server / Database Files
+# ============================================
+*.bak
+*.mdf
+*.ldf
+*.ndf
+*.sql.bak
+*.sql~
+
+# ============================================
+# Power BI Files
+# ============================================
+*.pbix
+*.pbit
+*.pbix.live
+*.pbix.tmp
+*.pbix.autosave
+*.rdl
+*.rdl.data
+*.rdl2
+*.rdlx
+*.rdl3
+*.rdl.backup
+*.rdl.shared
+*.rdl.autosave
+
+# ============================================
+# Data Files (CSV, Excel, JSON, etc.)
+# ============================================
+*.csv
+*.xlsx
+*.xls
+*.xlsm
+*.json
+*.xml
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ============================================
+# Virtual Environments
+# ============================================
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# ============================================
+# Jupyter Notebook
+# ============================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ============================================
+# IDE / Editors
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# ============================================
+# Windows
+# ============================================
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# ============================================
+# Logs and Temporary Files
+# ============================================
+*.log
+*.tmp
+*.temp
+*.cache
+*.lock
+*.pid
+*.seed
+*.pid.lock
+
+# ============================================
+# Environment Variables
+# ============================================
+.env
+.env.local
+.env.*.local
+*.env
+
+# ============================================
+# Documentation / Reports
+# ============================================
+*.pdf
+!README.pdf
+reports/*.pdf
+reports/*.html
+
+# ============================================
+# Archives
+# ============================================
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.gz
+*.bz2
+
+# ============================================
+# Database Credentials / Secrets
+# ============================================
+config.ini
+secrets.yaml
+credentials.json
+*.key
+*.pem
+*.cert
+
+# ============================================
+# OS Generated
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>README Preview - GitHub Style</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #24292f;
+            background-color: #ffffff;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1012px;
+            margin: 0 auto;
+            background: #ffffff;
+        }
+        
+        .markdown-body {
+            font-size: 16px;
+            line-height: 1.5;
+            word-wrap: break-word;
+        }
+        
+        .markdown-body h1 {
+            font-size: 2em;
+            margin: 0.67em 0;
+            font-weight: 600;
+            padding-bottom: 0.3em;
+            border-bottom: 1px solid #d0d7de;
+        }
+        
+        .markdown-body h2 {
+            font-size: 1.5em;
+            margin-top: 24px;
+            margin-bottom: 16px;
+            font-weight: 600;
+            padding-bottom: 0.3em;
+            border-bottom: 1px solid #d0d7de;
+        }
+        
+        .markdown-body h3 {
+            font-size: 1.25em;
+            margin-top: 24px;
+            margin-bottom: 16px;
+            font-weight: 600;
+        }
+        
+        .markdown-body h4 {
+            font-size: 1em;
+            margin-top: 24px;
+            margin-bottom: 16px;
+            font-weight: 600;
+        }
+        
+        .markdown-body blockquote {
+            padding: 0 1em;
+            color: #656d76;
+            border-left: 0.25em solid #d0d7de;
+            margin: 0 0 16px 0;
+        }
+        
+        .markdown-body ul, .markdown-body ol {
+            margin-top: 0;
+            margin-bottom: 16px;
+            padding-left: 2em;
+        }
+        
+        .markdown-body li {
+            margin-top: 0.25em;
+        }
+        
+        .markdown-body code {
+            padding: 0.2em 0.4em;
+            margin: 0;
+            font-size: 85%;
+            background-color: rgba(175, 184, 193, 0.2);
+            border-radius: 6px;
+            font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+        }
+        
+        .markdown-body pre {
+            padding: 16px;
+            overflow: auto;
+            font-size: 85%;
+            line-height: 1.45;
+            background-color: #f6f8fa;
+            border-radius: 6px;
+            margin-bottom: 16px;
+        }
+        
+        .markdown-body pre code {
+            display: inline;
+            max-width: auto;
+            padding: 0;
+            margin: 0;
+            overflow: visible;
+            line-height: inherit;
+            word-wrap: normal;
+            background-color: transparent;
+            border: 0;
+        }
+        
+        .markdown-body strong {
+            font-weight: 600;
+        }
+        
+        .markdown-body hr {
+            height: 0.25em;
+            padding: 0;
+            margin: 24px 0;
+            background-color: #d0d7de;
+            border: 0;
+        }
+        
+        .markdown-body em {
+            font-style: italic;
+        }
+        
+        .markdown-body img {
+            max-width: 100%;
+            height: auto;
+            margin: 16px 0;
+            border-radius: 6px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+        }
+        
+        .markdown-body p {
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <article class="markdown-body">
+            <h1>🏢 Data Warehouse E-commerce - Projet Portfolio</h1>
+            
+            <blockquote>
+                <p><strong>Projet réalisé dans le cadre du MBA Big Data & IA à MBA ESG Paris</strong></p>
+            </blockquote>
+            
+            <p>Ce projet illustre la construction complète d'un Data Warehouse à partir de données fictives d'e-commerce, avec modélisation sous SQL Server et création d'un dashboard Power BI pour l'analyse des ventes, paiements et produits.</p>
+            
+            <h2>📋 Table des matières</h2>
+            
+            <ul>
+                <li><a href="#vue-densemble">Vue d'ensemble</a></li>
+                <li><a href="#objectifs-du-projet">Objectifs du projet</a></li>
+                <li><a href="#architecture-du-data-warehouse">Architecture du Data Warehouse</a></li>
+                <li><a href="#structure-du-projet">Structure du projet</a></li>
+                <li><a href="#technologies-utilisées">Technologies utilisées</a></li>
+                <li><a href="#installation-et-utilisation">Installation et utilisation</a></li>
+                <li><a href="#compétences-démontrées">Compétences démontrées</a></li>
+                <li><a href="#auteur">Auteur</a></li>
+            </ul>
+            
+            <h2>🎯 Vue d'ensemble</h2>
+            
+            <p>Ce projet démontre toutes les étapes d'un pipeline décisionnel complet :</p>
+            <ul>
+                <li><strong>Extraction</strong> : Importation de données CSV</li>
+                <li><strong>Transformation</strong> : Nettoyage et structuration des données</li>
+                <li><strong>Modélisation</strong> : Schéma en étoile (Star Schema) sous SQL Server</li>
+                <li><strong>Visualisation</strong> : Dashboard Power BI avec mesures DAX avancées</li>
+            </ul>
+            
+            <h2>🎯 Objectifs du projet</h2>
+            
+            <ol>
+                <li>Modéliser un Data Warehouse avec un schéma en étoile</li>
+                <li>Gérer les relations entre tables de dimensions et table de faits</li>
+                <li>Créer des vues SQL optimisées pour l'analyse</li>
+                <li>Développer un dashboard Power BI interactif</li>
+                <li>Implémenter des mesures DAX (CA, MTD, YTD, croissance, panier moyen)</li>
+            </ol>
+            
+            <h2>🏗️ Architecture du Data Warehouse</h2>
+            
+            <h3>Schéma en étoile (Star Schema)</h3>
+            
+            <p>Le Data Warehouse suit une architecture en étoile avec :</p>
+            
+            <h4>Tables de dimensions</h4>
+            <ul>
+                <li><strong><code>dim_customers</code></strong> : Informations sur les clients (nom, email, région)</li>
+                <li><strong><code>dim_products</code></strong> : Catalogue produits (nom, catégorie, prix)</li>
+                <li><strong><code>dim_regions</code></strong> : Géolocalisation des clients</li>
+                <li><strong><code>dim_payments</code></strong> : Méthodes et statuts de paiement</li>
+                <li><strong><code>dim_date</code></strong> : Dimension temporelle pour analyses temporelles</li>
+            </ul>
+            
+            <h4>Table de faits</h4>
+            <ul>
+                <li><strong><code>fact_orders</code></strong> : Commandes avec quantité, montant, dates et relations aux dimensions</li>
+            </ul>
+            
+            <h3>Vues SQL pour Power BI</h3>
+            
+            <p>Le projet inclut plusieurs vues optimisées pour l'analyse :</p>
+            
+            <ul>
+                <li><strong><code>vw_sales_overview</code></strong> : Vue globale des ventes avec informations client, produit, région et paiement</li>
+                <li><strong><code>vw_sales_by_product</code></strong> : Agrégation des ventes par produit</li>
+                <li><strong><code>vw_orders_by_region</code></strong> : Analyse des commandes par région</li>
+                <li><strong><code>vw_payment_success_rate</code></strong> : Taux de réussite des paiements</li>
+            </ul>
+            
+            <h2>📁 Structure du projet</h2>
+            
+            <pre><code>Projet_data_warehouse_ecommerce/
+├── data/                          # Données sources (CSV)
+│   ├── customers_100.csv
+│   ├── orders_200.csv
+│   ├── payments_200.csv
+│   ├── products_100.csv
+│   └── regions_100.csv
+├── requêtes_sql/                  # Scripts SQL pour création du DWH
+│   ├── 01_creation_schema_et_tables_dimensions.sql
+│   ├── 02_creation_table_tait.sql
+│   ├── 03_vérification_chargement_tables.sql
+│   ├── 04_creation_vues_pour_pbix.sql
+│   └── 05_verifier_la_liaison_des_tables.sql
+├── powerbi/                       # Fichiers Power BI
+│   └── Dashborad_E_commerce.pbix
+├── images/                        # Captures d'écran du processus
+├── docs/                          # Documentation
+├── reports/                       # Rapports générés
+├── doc.py                         # Script Python pour génération PDF
+└── README.md                      # Ce fichier
+</code></pre>
+            
+            <h2>🛠️ Technologies utilisées</h2>
+            
+            <ul>
+                <li><strong>Base de données</strong> : Microsoft SQL Server</li>
+                <li><strong>ETL</strong> : Power Query (dans Power BI)</li>
+                <li><strong>Visualisation</strong> : Power BI Desktop</li>
+                <li><strong>Langages</strong> : SQL (T-SQL), Python (FPDF pour documentation)</li>
+                <li><strong>Modélisation</strong> : Schéma en étoile (Star Schema)</li>
+            </ul>
+            
+            <h2>🚀 Installation et utilisation</h2>
+            
+            <h3>Prérequis</h3>
+            
+            <ul>
+                <li>Microsoft SQL Server (2019 ou supérieur)</li>
+                <li>SQL Server Management Studio (SSMS)</li>
+                <li>Power BI Desktop</li>
+                <li>Python 3.x (optionnel, pour génération PDF)</li>
+            </ul>
+            
+            <h3>Étapes d'installation</h3>
+            
+            <ol>
+                <li><p><strong>Création du Data Warehouse</strong></p>
+                    <pre><code>-- Exécuter les scripts dans l'ordre :
+-- 1. 01_creation_schema_et_tables_dimensions.sql
+-- 2. 02_creation_table_tait.sql
+</code></pre>
+                    <img src="images/1. CREATION DU SCHEMA ET DES TABLES DE DIMENSIONS.png" alt="Création du schéma et des tables de dimensions">
+                    <img src="images/2. CREATION DE LA TABLE DE FAIT ET VERIFICATION.png" alt="Création de la table de fait et vérification">
+                </li>
+                <li><p><strong>Importation des données</strong></p>
+                    <ul>
+                        <li>Importer les fichiers CSV depuis le dossier <code>data/</code> dans les tables correspondantes</li>
+                        <li>Utiliser SQL Server Import/Export Wizard ou BULK INSERT</li>
+                    </ul>
+                </li>
+                <li><p><strong>Vérification</strong></p>
+                    <pre><code>-- Exécuter :
+-- 3. 03_vérification_chargement_tables.sql
+-- 5. 05_verifier_la_liaison_des_tables.sql
+</code></pre>
+                    <img src="images/3. VERIFICATION DU CHARGEMENT DES DONNEES.png" alt="Vérification du chargement des données">
+                    <img src="images/4. VERIFIER QUE TOUTES LES TABLES SONT BIEN RELIEES.png" alt="Vérifier que toutes les tables sont bien reliées">
+                </li>
+                <li><p><strong>Création des vues</strong></p>
+                    <pre><code>-- Exécuter :
+-- 4. 04_creation_vues_pour_pbix.sql
+</code></pre>
+                    <img src="images/5.CREATIONS DES VUES POUR ANALYSE POWER BI.png" alt="Créations des vues pour analyse Power BI">
+                </li>
+                <li><p><strong>Connexion Power BI</strong></p>
+                    <ul>
+                        <li>Ouvrir <code>powerbi/Dashborad_E_commerce.pbix</code></li>
+                        <li>Configurer la connexion à votre instance SQL Server</li>
+                        <li>Rafraîchir les données</li>
+                    </ul>
+                </li>
+            </ol>
+            
+            <h3>Génération de la documentation PDF</h3>
+            
+            <pre><code>python doc.py
+</code></pre>
+            
+            <h2>💡 Compétences démontrées</h2>
+            
+            <h3>Modélisation de données</h3>
+            <ul>
+                <li>✅ Conception d'un schéma en étoile (Star Schema)</li>
+                <li>✅ Gestion des clés primaires et étrangères</li>
+                <li>✅ Normalisation et optimisation des tables</li>
+            </ul>
+            
+            <h3>SQL & Base de données</h3>
+            <ul>
+                <li>✅ Création de schémas et tables sous SQL Server</li>
+                <li>✅ Gestion des contraintes d'intégrité référentielle</li>
+                <li>✅ Création de vues SQL optimisées</li>
+                <li>✅ Requêtes complexes avec JOINs multiples</li>
+            </ul>
+            
+            <h3>Power BI & DAX</h3>
+            <ul>
+                <li>✅ Importation et transformation des données avec Power Query</li>
+                <li>✅ Création de mesures DAX avancées (CA, MTD, YTD, croissance, panier moyen)</li>
+                <li>✅ Visualisation et storytelling de données</li>
+                <li>✅ Design de dashboard interactif et professionnel</li>
+            </ul>
+            
+            <h3>Pipeline décisionnel</h3>
+            <ul>
+                <li>✅ Extraction, Transformation, Chargement (ETL)</li>
+                <li>✅ Architecture Data Warehouse</li>
+                <li>✅ Documentation technique</li>
+            </ul>
+            
+            <h2>📊 Fonctionnalités du Dashboard Power BI</h2>
+            
+            <p>Le dashboard inclut des analyses sur :</p>
+            <ul>
+                <li><strong>Vue globale</strong> : Aperçu des ventes et KPIs principaux</li>
+            </ul>
+            <img src="powerbi/vue globale.png" alt="Vue globale">
+            
+            <ul>
+                <li><strong>Analyse régionale</strong> : Performance des ventes par région</li>
+            </ul>
+            <img src="powerbi/analyse regionales.png" alt="Analyse régionale">
+            
+            <ul>
+                <li><strong>Analyse produits</strong> : Top produits et catégories</li>
+            </ul>
+            <img src="powerbi/analyse produits.png" alt="Analyse produits">
+            
+            <ul>
+                <li><strong>Succès des paiements</strong> : Taux de réussite et méthodes de paiement</li>
+                <li><strong>Calendrier</strong> : Analyses temporelles (MTD, YTD)</li>
+            </ul>
+            
+            <h2>👤 Auteur</h2>
+            
+            <p><strong>Cédric BOIMIN</strong></p>
+            
+            <p>Étudiant en MBA Big Data & IA à MBA ESG Paris</p>
+            
+            <hr>
+            
+            <p><em>Ce projet fait partie de mon portfolio professionnel et démontre mes compétences en Data Engineering, Business Intelligence et Data Analytics.</em></p>
+        </article>
+    </div>
+</body>
+</html>
