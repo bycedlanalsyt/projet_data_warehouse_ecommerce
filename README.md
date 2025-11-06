@@ -81,7 +81,7 @@ Projet_data_warehouse_ecommerce/
 └── README.md                      # Ce fichier
 ```
 
-## 🛠️ Technologies utilisées
+## 🛠️ Outils utilisées
 
 - **Base de données** : Microsoft SQL Server
 - **ETL** : Power Query (dans Power BI)
