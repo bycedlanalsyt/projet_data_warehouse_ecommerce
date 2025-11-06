@@ -119,7 +119,7 @@ Projet_data_warehouse_ecommerce/
    ```sql
    -- Exécuter :
    -- 3. 03_vérification_chargement_tables.sql
-   -- 5. 05_verifier_la_liaison_des_tables.sql
+   -- 5. 04_verifier_la_liaison_des_tables.sql
    ```
    
    ![Vérification du chargement des données](images/3.%20VERIFICATION%20DU%20CHARGEMENT%20DES%20DONNEES.png)
@@ -129,7 +129,7 @@ Projet_data_warehouse_ecommerce/
 4. **Création des vues**
    ```sql
    -- Exécuter :
-   -- 4. 04_creation_vues_pour_pbix.sql
+   -- 4. 05_creation_vues_pour_pbix.sql
    ```
    
    ![Créations des vues pour analyse Power BI](images/5.CREATIONS%20DES%20VUES%20POUR%20ANALYSE%20POWER%20BI.png)
