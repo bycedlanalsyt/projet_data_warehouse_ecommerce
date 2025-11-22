@@ -104,7 +104,7 @@ Projet_data_warehouse_ecommerce/
    ```sql
    -- Exécuter les scripts dans l'ordre :
    -- 1. 01_creation_schema_et_tables_dimensions.sql
-   -- 2. 02_creation_table_tait.sql
+   -- 2. 02_creation_table_fait.sql
    ```
    
    ![Création du schéma et des tables de dimensions](images/1.%20CREATION%20DU%20SCHEMA%20ET%20DES%20TABLES%20DE%20DIMENSIONS.png)
